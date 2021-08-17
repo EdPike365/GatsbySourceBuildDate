@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-source-build-date",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to add build date of site to internal GraphQL API",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "date",
+    "build date",
+    "updated date"
+  ],
+  "author": {
+    "name": "EdPike365",
+    "email": "edpike365@gmail.com",
+    "url": "https://edpike365.com"
+  },
+  "homepage": "https://github.com/EdPike365/GatsbySourceBuildDate#readme",
+  "bugs": {
+    "url": "https://github.com/EdPike365/GatsbySourceBuildDate/issues",
+    "email": "edpike365@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdPike365/GatsbySourceBuildDate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "versionOptions": "patch, minor, major, prepatch, preminor, premajor, prerelease, from-git",
+    "postversion": "git push && git push --tags && npm publish --dry-run"
+  }
+}
