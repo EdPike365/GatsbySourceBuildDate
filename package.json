@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-build-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsby plugin to add build date of site to internal GraphQL API",
   "keywords": [
     "gatsby",
